@@ -14,7 +14,7 @@ def test_merge_sort_sorted_array():
 def test_merge_sort_array_with_duplicates():
     arr = [4, 5, 6, 4, 3, 2, 1, 2]
     sorted_arr = merge_sort(arr)
-    assert sorted_arr == [1, 2, 2, 3, 4, 4, 5, 6]from hw2_debugging import merge_sort
+    assert sorted_arr == [1, 2, 2, 3, 4, 4, 5, 6]
 
 def merge_test_1():
     arr = [1, 6, 9, 7, 2, 4, 3] # Odd number of inputs
