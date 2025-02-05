@@ -1,7 +1,7 @@
-import subprocess
+import random
 
 def random_array(arr):
     for i in range(len(arr)):
-        shuffled_num = subprocess.run(["shuf", "-i1-20", "-n1"], capture_output=True)
-        arr[i] = int(shuffled_num.stdout)
+        # Generate a random number between 1 and 20
+        arr[i] = random.randint(1, 20)
     return arr
