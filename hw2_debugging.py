@@ -52,11 +52,11 @@ def recombine(left_arr, right_arr):
 
     while left_index < len(left_arr) and right_index < len(right_arr):
         if left_arr[left_index] < right_arr[right_index]:
-            right_index += 1
             merge_arr[merge_index] = left_arr[left_index]
-        else:
             left_index += 1
+        else:
             merge_arr[merge_index] = right_arr[right_index]
+            right_index += 1
         merge_index += 1
 
     while left_index < len(left_arr):
@@ -74,9 +74,11 @@ def recombine(left_arr, right_arr):
 arr1 = rand.random_array([None] * 20)
 arr_out = merge_sort(arr1)
 
+print(arr1)
 print(arr_out)
 
 arr2 = rand.random_array([None] * 20)
 arr2_out = selection_sort(arr2)
 
+print(arr2)
 print(arr2_out)
