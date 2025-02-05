@@ -1,2 +1,3 @@
 **[![Pylint](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pylint.yml)**
 **[![Bandit](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/badit.yml/badge.svg)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/badit.yml)**
+**[![Pytest](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pytest.yml/badge.svg)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pytest.yml)**
