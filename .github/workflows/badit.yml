@@ -1,0 +1,35 @@
+name: Bandit Security Check
+
+on:
+  push:
+    branches:
+      - main
+      - mjakari_bandit
+      - jmwrigh3_pylint
+  pull_request:
+    branches:
+      - main
+      - mjakari_bandit
+      - jmwrigh3_pylint
+
+jobs:
+  bandit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.4'  # Specify the Python version you are using
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install bandit
+
+    - name: Run Bandit
+      run: |
+        bandit hw2_debugging.py rand.py
