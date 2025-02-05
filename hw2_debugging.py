@@ -1,5 +1,17 @@
 import rand
 
+# Broken Selection Sort
+def selectionSort(arr):
+    n = len(arr)
+    for i in range(n): # Should be n-1
+        minIndex = i
+
+        for j in range(i, n): # Should be i+1
+            if arr[j] > arr[minIndex]: # Should be <
+                minIndex = j
+
+        arr[i], arr[minIndex] = arr[minIndex], arr[i]
+
 def mergeSort(arr):
     if (len(arr) == 1):
         return arr
