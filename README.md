@@ -1,1 +1,2 @@
-[![Bandit](https://img.shields.io/github/actions/workflow/status/NCSU-SE-Spring2025-Group6/HW3-debugging/badit.yml?branch=mjakari_bandit)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/badit.yml)
+**[![Pylint](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pylint.yml/badge.svg)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/pylint.yml)**
+**[![Bandit](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/badit.yml/badge.svg)](https://github.com/NCSU-SE-Spring2025-Group6/HW3-debugging/actions/workflows/badit.yml)**
